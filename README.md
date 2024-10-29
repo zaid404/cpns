@@ -10,12 +10,13 @@ This repository contains an analysis of CPNS (Calon Pegawai Negeri Sipil) data. 
 ### Legal Considerations
 I am still questioning the legality of the data I am using. Is it permissible to conduct this type of analysis?
 
-### Analysis Results
+
 - **Test Conducted**: PEMERIKSA KEIMIGRASIAN PEMULA
 - **Institution**: Kementerian Hukum dan Hak Asasi Manusia
 - **Location**: KANTOR WILAYAH KEMENKUMHAM SUMATERA UTARA
 - **Results**: 2.18 - 6.02
 - **Participants**: 62
+- ### Analysis Results
 - **SKB Score Range**: 350.0 - 404.0
 
 ### Conclusion
