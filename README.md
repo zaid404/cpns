@@ -1,12 +1,24 @@
-# cpns
-some of analaysis cpns data
-sedikit analissi tentang data cpns
-https://docs.google.com/spreadsheets/d/1t4N7qGwJpt9olXfz1P7zK-pVvEQCOSxTuoVq37GWVUM/edit?usp=sharing
-sm 3 is simulation count the range number participant that could get in to SKB, data input is random, :)
- sya masih mempertanyakan data yang saya gunakan apakah ini legal untuk di lakukan, idk
- test yang saya lakukan 
- simulasi 
- PEMERIKSA KEIMIGRASIAN PEMULA	Kementerian Hukum dan Hak Asasi Manusia		KANTOR WILAYAH KEMENKUMHAM SUMATERA UTARA	Tidak	2,18 - 6,02	62	6908
- hasil yang di dapat adalah rentang nilai peserta SKB sebagai berikut  350.0-404.0
- analisis ini masih jauh dari kata sempurna karna mempertimbangkan data yang saya gunakan adalah data ganbungan, tobe continued
- 
+# Analysis of CPNS Data
+
+## Overview
+This repository contains an analysis of CPNS (Calon Pegawai Negeri Sipil) data. The dataset can be accessed [here](https://docs.google.com/spreadsheets/d/1t4N7qGwJpt9olXfz1P7zK-pVvEQCOSxTuoVq37GWVUM/edit?usp=sharing).
+
+### Simulation Overview
+- **Simulation Count**: SM 3
+- The analysis simulates the range of participants who could qualify for SKB (Seleksi Kompetensi Bidang). The data input is random.
+
+### Legal Considerations
+I am still questioning the legality of the data I am using. Is it permissible to conduct this type of analysis?
+
+### Analysis Results
+- **Test Conducted**: PEMERIKSA KEIMIGRASIAN PEMULA
+- **Institution**: Kementerian Hukum dan Hak Asasi Manusia
+- **Location**: KANTOR WILAYAH KEMENKUMHAM SUMATERA UTARA
+- **Results**: 2.18 - 6.02
+- **Participants**: 62
+- **SKB Score Range**: 350.0 - 404.0
+
+### Conclusion
+This analysis is still a work in progress, as it relies on a composite dataset. Further refinements and validations are necessary.
+
+**To be continued...**
