@@ -106,30 +106,9 @@ Dalam proses evaluasi, terdapat tiga metrik utama yang digunakan untuk menilai a
 
 Secara keseluruhan, nilai-nilai evaluasi ini menunjukkan bahwa model prediksi yang digunakan memiliki tingkat akurasi yang memadai untuk sebagian besar kota, namun ada potensi perbaikan di beberapa wilayah untuk meningkatkan konsistensi prediksi. 
 
-Contoh penulisan di file `README.md`:
-
 ---
 
 ### Evaluasi Hasil Prediksi Model
 
-Hasil evaluasi model prediksi untuk data CPNS per kota ditunjukkan oleh tiga metrik utama:
-rentang di sini adalah MIN-Max
-- **Mean Absolute Error (MAE)**:
-  - Rentang: **15.85 - 24.21**
-  - MAE mengukur rata-rata kesalahan absolut prediksi, semakin kecil nilainya, semakin baik akurasi prediksi.
-
-- **Mean Absolute Percentage Error (MAPE)**:
-  - Rentang: **7.18% - 11.38%**
-  - MAPE membantu mengukur kesalahan dalam bentuk persentase. MAPE yang rendah menandakan prediksi yang cukup konsisten.
-
-- **Root Mean Square Error (RMSE)**:
-  - Rentang: **39.16 - 47.09**
-  - RMSE memberikan bobot lebih besar pada kesalahan yang lebih besar. RMSE yang rendah menunjukkan prediksi yang lebih akurat.
-
-Secara keseluruhan, hasil evaluasi ini menunjukkan model mampu memberikan prediksi yang cukup akurat di sebagian besar kota, meskipun masih terdapat beberapa area yang membutuhkan perbaikan.
-MAPE (Max): 7.18%
-RMSE (Min): 47.09
-RMSE (Max): 39.16
-
-
-
+continu
+tobe
