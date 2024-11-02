@@ -113,7 +113,7 @@ Contoh penulisan di file `README.md`:
 ### Evaluasi Hasil Prediksi Model
 
 Hasil evaluasi model prediksi untuk data CPNS per kota ditunjukkan oleh tiga metrik utama:
-
+rentang di sini adalah MIN-Max
 - **Mean Absolute Error (MAE)**:
   - Rentang: **15.85 - 24.21**
   - MAE mengukur rata-rata kesalahan absolut prediksi, semakin kecil nilainya, semakin baik akurasi prediksi.
