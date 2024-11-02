@@ -82,10 +82,51 @@ jadi kali ini menggunakan metode Boostrapping untuk simulasi nya
 | PENJAGA TAHANAN (LAKI-LAKI) Papua PUTRAPUTRI PAPUA DAN PAPUA BARAT | 257 | 24 | 387 | 325 | 358.388 | 373.074 |
 | PENJAGA TAHANAN (LAKI-LAKI) Papua Barat PUTRAPUTRI PAPUA DAN PAPUA BARAT | 248 | 24 | 401 | 301 | 358.727 | 374.249 |
 ```
-Hasil Evaluasi untuk Semua Kota:
-MAE (Min): 24.21
-MAE (Max): 15.85
-MAPE (Min): 11.38%
+### Penjelasan Hasil Evaluasi
+
+Dalam proses evaluasi, terdapat tiga metrik utama yang digunakan untuk menilai akurasi prediksi model terhadap data CPNS pada berbagai kota:
+
+1. **Mean Absolute Error (MAE)**:
+   - MAE minimum: 15.85
+   - MAE maksimum: 24.21
+   
+   MAE mengukur rata-rata absolut dari kesalahan prediksi, yaitu selisih antara nilai aktual dan nilai yang diprediksi. Semakin rendah nilai MAE, semakin baik akurasi prediksi model. Pada hasil ini, MAE minimum yang tercapai adalah 15.85, menunjukkan performa yang relatif baik di beberapa kota, sementara MAE maksimum adalah 24.21, menunjukkan beberapa area yang memiliki ketidakakuratan yang lebih besar.
+
+2. **Mean Absolute Percentage Error (MAPE)**:
+   - MAPE minimum: 7.18%
+   - MAPE maksimum: 11.38%
+   
+   MAPE menggambarkan rata-rata persentase kesalahan absolut, yang membantu memahami kesalahan prediksi dalam konteks persentase relatif. Dengan MAPE minimum sebesar 7.18% dan maksimum 11.38%, model menunjukkan kesalahan relatif yang terbilang rendah, menandakan bahwa prediksi cukup konsisten dibandingkan dengan nilai sebenarnya.
+
+3. **Root Mean Square Error (RMSE)**:
+   - RMSE minimum: 39.16
+   - RMSE maksimum: 47.09
+   
+   RMSE memperhitungkan kuadrat dari kesalahan dan memberikan bobot lebih besar pada kesalahan yang lebih besar, sehingga metrik ini berguna untuk mengidentifikasi outlier. RMSE yang lebih rendah mengindikasikan prediksi yang lebih akurat. Pada hasil ini, RMSE minimum adalah 39.16 dan RMSE maksimum adalah 47.09, yang menunjukkan bahwa variasi kesalahan masih berada dalam rentang yang dapat diterima.
+
+Secara keseluruhan, nilai-nilai evaluasi ini menunjukkan bahwa model prediksi yang digunakan memiliki tingkat akurasi yang memadai untuk sebagian besar kota, namun ada potensi perbaikan di beberapa wilayah untuk meningkatkan konsistensi prediksi. 
+
+Contoh penulisan di file `README.md`:
+
+---
+
+### Evaluasi Hasil Prediksi Model
+
+Hasil evaluasi model prediksi untuk data CPNS per kota ditunjukkan oleh tiga metrik utama:
+
+- **Mean Absolute Error (MAE)**:
+  - Rentang: **15.85 - 24.21**
+  - MAE mengukur rata-rata kesalahan absolut prediksi, semakin kecil nilainya, semakin baik akurasi prediksi.
+
+- **Mean Absolute Percentage Error (MAPE)**:
+  - Rentang: **7.18% - 11.38%**
+  - MAPE membantu mengukur kesalahan dalam bentuk persentase. MAPE yang rendah menandakan prediksi yang cukup konsisten.
+
+- **Root Mean Square Error (RMSE)**:
+  - Rentang: **39.16 - 47.09**
+  - RMSE memberikan bobot lebih besar pada kesalahan yang lebih besar. RMSE yang rendah menunjukkan prediksi yang lebih akurat.
+
+Secara keseluruhan, hasil evaluasi ini menunjukkan model mampu memberikan prediksi yang cukup akurat di sebagian besar kota, meskipun masih terdapat beberapa area yang membutuhkan perbaikan.
 MAPE (Max): 7.18%
 RMSE (Min): 47.09
 RMSE (Max): 39.16
