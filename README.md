@@ -1,4 +1,4 @@
-# Analysis of CPNS Data
+# SIMULASI PERENGKINGAN UNTUK TAHAPAN SKB METODE BOOSTSTRAPPING SIMULATION
 
 ## Overview
 This repository contains an analysis of CPNS (Calon Pegawai Negeri Sipil) data using 2018 result test SKD. 
